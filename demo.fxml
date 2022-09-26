@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.RadioMenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="291.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.studentproject.StudentDemo">
+   <children>
+      <MenuBar fx:id="grades" layoutX="96.0" layoutY="41.0">
+        <menus>
+          <Menu fx:id="grade" mnemonicParsing="false" text="Select Grade">
+            <items>
+                  <RadioMenuItem fx:id="A" mnemonicParsing="false" onAction="#onAction" text="A">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="G" />
+                     </toggleGroup>
+                  </RadioMenuItem>
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <RadioMenuItem fx:id="B" mnemonicParsing="false" onAction="#onAction" text="B" toggleGroup="$G" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <RadioMenuItem fx:id="C" mnemonicParsing="false" onAction="#onAction" text="C" toggleGroup="$G" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <RadioMenuItem fx:id="D" mnemonicParsing="false" onAction="#onAction" text="D" toggleGroup="$G" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <RadioMenuItem fx:id="E" mnemonicParsing="false" onAction="#onAction" text="E" toggleGroup="$G" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <RadioMenuItem fx:id="F" mnemonicParsing="false" onAction="#onAction" text="F" toggleGroup="$G" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <MenuBar fx:id="grades1" layoutX="96.0" layoutY="83.0">
+         <menus>
+            <Menu fx:id="grade1" mnemonicParsing="false" text="Select Grade">
+               <items>
+                  <RadioMenuItem fx:id="A1" mnemonicParsing="false" onAction="#onAction" text="A">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="G1" />
+                     </toggleGroup>
+                  </RadioMenuItem>
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <RadioMenuItem fx:id="B1" mnemonicParsing="false" onAction="#onAction" text="B" toggleGroup="$G1" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <RadioMenuItem fx:id="C1" mnemonicParsing="false" onAction="#onAction" text="C" toggleGroup="$G1" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <RadioMenuItem fx:id="D1" mnemonicParsing="false" onAction="#onAction" text="D" toggleGroup="$G1" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <RadioMenuItem fx:id="E1" mnemonicParsing="false" onAction="#onAction" text="E" toggleGroup="$G1" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <RadioMenuItem fx:id="F1" mnemonicParsing="false" onAction="#onAction" text="F" toggleGroup="$G1" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <MenuBar fx:id="grades11" layoutX="96.0" layoutY="127.0">
+         <menus>
+            <Menu fx:id="grade11" mnemonicParsing="false" text="Select Grade">
+               <items>
+                  <RadioMenuItem fx:id="A11" mnemonicParsing="false" onAction="#onAction" text="A">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="G11" />
+                     </toggleGroup>
+                  </RadioMenuItem>
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <RadioMenuItem fx:id="B11" mnemonicParsing="false" onAction="#onAction" text="B" toggleGroup="$G11" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <RadioMenuItem fx:id="C11" mnemonicParsing="false" onAction="#onAction" text="C" toggleGroup="$G11" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <RadioMenuItem fx:id="D11" mnemonicParsing="false" onAction="#onAction" text="D" toggleGroup="$G11" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <RadioMenuItem fx:id="E11" mnemonicParsing="false" onAction="#onAction" text="E" toggleGroup="$G11" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <RadioMenuItem fx:id="F11" mnemonicParsing="false" onAction="#onAction" text="F" toggleGroup="$G11" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+   </children>
+</Pane>
